@@ -10,6 +10,7 @@ website:
         text: Home
       - about.qmd
       - cookingwithdani.qmd
+      - resume.qmd
 
 format:
   html:

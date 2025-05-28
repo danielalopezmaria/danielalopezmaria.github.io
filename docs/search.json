@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "Projects!",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "During the summer I worked on a group conservation plan for the Mixed Conifer forests in New Mexico’s Cibola National Forest!\nClick below to find out more about mixed conifer forest and the conservation process."
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,12 @@
     "title": "Daniela Lopez Maria",
     "section": "",
     "text": "Hi! I’m Daniela Lopez, a third year Environmental Studies major (BS) with a minor in Earth Science at the University of California, Santa Barbara! I enjoy any outdoor activities, hanging out with friends, and cooking/baking!"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "My Resume",
+    "section": "",
+    "text": "This will be my resume area. Either attach a PDF with a full description or interactive version of resume with links to specific achievements/job detail/etc."
   }
 ]
