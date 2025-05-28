@@ -7,8 +7,6 @@ about:
 
 Hi! I'm Daniela Lopez, a third year Environmental Studies major (BS) with a minor in Earth Science at the University of California, Santa Barbara! I enjoy any outdoor activities, hanging out with friends, and cooking/baking!
 
-![](friends28.jpeg){width="250"}
-
-![](boyfriend28.jpeg){width="250"}
-
-![](mazzy28.jpeg){width="250"}
+::: {style="display: flex; gap: 10px;"}
+![](boyfriend28.jpeg){width="499"} ![](aguachile28.jpeg){width="499"}
+:::
