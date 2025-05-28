@@ -1,7 +1,13 @@
 ---
 title: "Cooking with Me (Dani!)"
-image: foccacia28.jpeg
 about: 
   template: jolla
   image-shape: rounded
+---
+
+I love cooking and baking when I have any free time!
+
+![Focaccia!](foccacia28.jpeg){width="400"}
+
+![Aguachile!](aguachile28.jpeg){width="400"}
 ---
