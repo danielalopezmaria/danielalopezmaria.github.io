@@ -7,6 +7,6 @@ about:
 
 I love cooking and baking when I have any free time!
 
-![](foccacia28.jpeg){width="300"}
-
-![](aguachile28.jpeg){width="300"}
+::: {style="display: flex; gap: 10px;"}
+![](foccacia28.jpeg){width="500"} ![](aguachile28.jpeg){width="500"}
+:::
