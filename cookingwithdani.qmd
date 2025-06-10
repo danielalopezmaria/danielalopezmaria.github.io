@@ -3,6 +3,7 @@ title: "Cooking with Me (Dani!)"
 about: 
   template: jolla
   image-shape: rounded
+lightbox: true
 ---
 
 I love cooking and baking when I have any free time!

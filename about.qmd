@@ -2,9 +2,46 @@
 title: "Projects!"
 ---
 
-During the summer I worked on a group conservation plan for the Mixed Conifer forests in New Mexico's Cibola National Forest! 
+```{r echo=FALSE,message=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(here)
+library(flextable)
+library(janitor)
+library(readxl)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#name hydration data
+
+hydrationdata <- read.csv ("SM 193DS - Sheet1.csv")
 
 
+#clean data to all lower case and no spaces
+hydration_clean <- hydrationdata |>
+  rename(
+    water_intake_oz = "water.intake..oz.",
+    work_day = "work.day"
+  ) |> 
+  select(Date, water_intake_oz, work_day) |>
+  mutate(
+    work_day= tolower(trimws(work_day)),
+    water_intake_oz= as.numeric(water_intake_oz)
+  )
 
+mean_water_intake <- hydration_clean |>
+  group_by(work_day) |>
+  summarise(mean_intake= mean(water_intake_oz, na.rm = TRUE))
 
+#make boxplot with. work day and water intake in pink and green
+boxplot(water_intake_oz ~ work_day, 
+        data = hydration_clean,
+        main = "Water Intake by Work Day",
+        xlab = "Work Day",
+        ylab = "Water Intake (oz)",
+        col = c("lightpink", "lightgreen")) 
 
+#made a caption for the boxplot
+mtext("Figure 1: boxplot comparing mean water intake between work days and nonwork days ",
+      side=1, line=3.6, cex= 0.9, col = "black")
+```

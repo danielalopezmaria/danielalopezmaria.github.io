@@ -1,13 +1,25 @@
 ---
 title: "Daniela Lopez Maria"
-image: 5:27 dp.jpeg
+image: "5:27 dp.jpeg"
 about: 
   template: jolla
-lightbox: true
+  links: # create buttons
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/daniela-lopez-05b044281/
+      target: _blank # opens link in a new browser tab
+    - text: GitHub
+      href: https://github.com/danielalopezmaria
+      target: _blank 
+    - text: Email
+      href: danielalopezmaria@ucsb.edu  
 ---
 
 Hi! I'm Daniela Lopez, a third year Environmental Studies major (BS) with a minor in Earth Science at the University of California, Santa Barbara! I enjoy any outdoor activities, hanging out with friends, and cooking/baking!
 
 ::: {style="display: flex; gap: 10px;"}
-![](boyfriend28.jpeg){width="499"} ![](friends28.jpeg)
+![](boyfriend28.jpeg){width="499"}
+:::
+
+::: {style="display: flex; gap: 10px;"}
+![](friends28.jpeg){width="499"}
 :::
