@@ -2,4 +2,6 @@
 title: "My Resume"
 ---
 
-This will be my resume area. Either attach a PDF with a full description or interactive version of resume with links to specific achievements/job detail/etc.
+```{r echo=FALSE}
+knitr::include_graphics("danielaresumejpegged.jpg")
+```

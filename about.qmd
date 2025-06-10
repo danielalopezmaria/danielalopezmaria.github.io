@@ -11,6 +11,10 @@ library(janitor)
 library(readxl)
 ```
 
+# Personal Hydration Data 
+
+The last three years I have noticed that I liked the water at my workplace at lot more than other water available to me which led me to track my intake in ounces for this study! Every day for the past few weeks I have collected the amount of water consumed throughout the day based on the primary independent variable of whether or not I worked.
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 #name hydration data
 
@@ -43,5 +47,28 @@ boxplot(water_intake_oz ~ work_day,
 
 #made a caption for the boxplot
 mtext("Figure 1: boxplot comparing mean water intake between work days and nonwork days ",
-      side=1, line=3.6, cex= 0.9, col = "black")
+      side=1, line=4.1, cex= 0.9, col = "black")
 ```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#made time plot but had to rename 
+hydration_clean$Date <- as.Date(hydration_clean$Date)
+
+
+plot(hydration_clean$Date, hydration_clean$water_intake_oz,
+     type = "l", col = "blue", lwd = 2,
+     xlab = "Date", ylab = "Water Intake (oz)",
+     main = "Daily Water Intake Over Time")
+
+mtext("Figure 2: graph over time on the amount of water consumed",
+      side=1, line=4.2, cex= 0.9, col = "black")
+
+
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+flextable(mean_water_intake)
+
+```
+
+# RO water spots at UCSB
