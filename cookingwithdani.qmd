@@ -6,7 +6,7 @@ about:
 lightbox: true
 ---
 
-I love cooking and baking when I have any free time!
+I have always loved cooking but recently got into using sourdough starter after I was able to get a free one from the farmers market. I love making traditional food to make me feel at home but I also love expanding and learning new recipes.
 
 ::: {style="display: flex; gap: 10px;"}
 ![](foccacia28.jpeg){width="500"} ![](aguachile28.jpeg){width="500"}

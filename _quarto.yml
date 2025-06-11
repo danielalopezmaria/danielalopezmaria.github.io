@@ -11,6 +11,7 @@ website:
       - about.qmd
       - cookingwithdani.qmd
       - resume.qmd
+      - aboutme.qmd
 
 format:
   html:
