@@ -11,7 +11,7 @@ library(janitor)
 library(readxl)
 ```
 
-# Personal Hydration Data 
+# Personal Hydration Data
 
 The last three years I have noticed that I liked the water at my workplace at lot more than other water available to me which led me to track my intake in ounces for this study! Every day for the past few weeks I have collected the amount of water consumed throughout the day based on the primary independent variable of whether or not I worked.
 
